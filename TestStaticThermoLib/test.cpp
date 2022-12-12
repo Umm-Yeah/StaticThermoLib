@@ -32,3 +32,12 @@ TEST(TestBarToPascal, Bar_Pa)
 	EXPECT_EQ(resultConversion, 101325);
 	EXPECT_TRUE(true);
 }
+
+TEST(TestPsiToBar, Psi_bar)
+{
+	double a = 1;
+	double resultConversion = Psi_Bar(a);
+
+	EXPECT_EQ(resultConversion, 0.0689476);
+	EXPECT_TRUE(true);
+}
