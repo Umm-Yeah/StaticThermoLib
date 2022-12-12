@@ -9,6 +9,6 @@ TEST(TestCaseName, TestName) {
 
 	double resultAdd = Add(a, b);
 
-  EXPECT_EQ(resultAdd, 1);
+  EXPECT_EQ(resultAdd, 20);
   EXPECT_TRUE(true);
 }
