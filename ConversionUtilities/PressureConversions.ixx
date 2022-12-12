@@ -24,7 +24,7 @@ export double Psi_Bar(double psi)
 
 export double Bar_Psi(double bar)
 {
-	// 0.0689476
+	// bar * 14.5038
 
-	return 1 / 0.0689476;
+	return bar * 14.5038;
 }
