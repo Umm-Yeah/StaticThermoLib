@@ -41,3 +41,12 @@ TEST(TestPsiToBar, Psi_bar)
 	EXPECT_EQ(resultConversion, 0.0689476);
 	EXPECT_TRUE(true);
 }
+
+TEST(TestBarToPsi, bar_Psi)
+{
+	double bar = 1.01325;
+	double resultConversion = Bar_Psi(bar);
+
+	EXPECT_EQ(resultConversion, 1);
+	EXPECT_TRUE(true);
+}
