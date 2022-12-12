@@ -1,6 +1,7 @@
 #include "pch.h"
 
 import Addition;
+import PressureConversions;
 
 TEST(TestCaseName, TestName) {
 
@@ -11,4 +12,14 @@ TEST(TestCaseName, TestName) {
 
   EXPECT_EQ(resultAdd, 20);
   EXPECT_TRUE(true);
+}
+
+TEST(TestPascalToBar, Pa_Bar)
+{
+	double a = 101325;
+	double resultConversion = Pascal_Bar(a);
+
+	EXPECT_EQ(resultConversion, 1);
+	EXPECT_TRUE(true);
+
 }
