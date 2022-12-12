@@ -28,3 +28,10 @@ export double Bar_Psi(double bar)
 
 	return bar * 14.5038;
 }
+
+export double Pa_Psi(double pa)
+{
+	//	pa * 0.000145038
+
+	return pa * 0.000145038;
+}
