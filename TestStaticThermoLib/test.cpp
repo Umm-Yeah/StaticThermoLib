@@ -23,3 +23,12 @@ TEST(TestPascalToBar, Pa_Bar)
 	EXPECT_TRUE(true);
 
 }
+
+TEST(TestBarToPascal, Bar_Pa)
+{
+	double a = 1;
+	double resultConversion = Bar_Pascal(a);
+
+	EXPECT_EQ(resultConversion, 101325);
+	EXPECT_TRUE(true);
+}
