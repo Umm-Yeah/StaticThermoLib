@@ -59,3 +59,12 @@ TEST(TestPaToPsi, Pa_Psi)
 	EXPECT_EQ(resultConversion, 0.000145038);
 	EXPECT_TRUE(true);
 }
+
+TEST(TestPsiToPa, Psi_Pa)
+{
+	double psi = 1;
+	double resultConversion = Psi_Pa(psi);
+
+	EXPECT_EQ(resultConversion, 6894.76);
+	EXPECT_TRUE(true);
+}

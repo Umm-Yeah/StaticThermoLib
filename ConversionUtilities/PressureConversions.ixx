@@ -35,3 +35,9 @@ export double Pa_Psi(double pa)
 
 	return pa * 0.000145038;
 }
+
+export double Psi_Pa(double psi)
+{
+	//	psi * 6894.76
+	return psi * 6894.76;
+}
